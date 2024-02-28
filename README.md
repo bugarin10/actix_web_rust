@@ -81,4 +81,6 @@ docker run -d -p 8080:8080 image_name
 - `-t image_name`: Tags the Docker image with the name "actix-app".
 - `-p 8080:8080`: Maps port 8080 on the host to port 8080 in the container.
 
+![Docker](img/docker.png)
+
 With these commands, your Actix web application should be running inside a Docker container and accessible at `http://localhost:8080`. Adjust the ports and other configurations as needed based on your deployment environment.
